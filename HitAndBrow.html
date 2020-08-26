@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit and Blow</title>
+    <link rel="stylesheet" href="HitAndBrow.css">
+</head>
+<body>
+    <h1 class="title"> Hit & Blow </h1>
+
+    <div id="what" class="what">
+        <h4 class="what2">Hit & Blow って何？</h4>
+        <ul>
+            <li>数字を使ったちょっと頭を使う手軽なゲームです！</li>
+            <li>hitとbrowの数をヒントに答えとなる３桁の数を当てます。</li>
+            <li>できるだけ少ない手数で答えに辿り着けるように頑張りましょう！</li>
+        </ul>
+    </div>
+
+    <div id="how" class="how">    
+        <h4 class="how2">遊び方</h4>
+        <ol>
+            <li>1〜９の中から数字が重ならないように3桁の数を入力し、チェックしてください。</li>
+            <li>答えの中に入力した数が含まれ位置が同じであればhit、含まれるが位置が違う場合はbrowとしてカウントされ、表示されます。</li>
+            <li>そのhit、browの数をヒントにして再び３桁の数を入力します。</li>
+            <li>時間制限はないのでじっくり考えましょう。</li>
+            <li>答えの３桁と入力した３桁が完璧に合えば、ゲームクリアです。</li>
+        </ol>
+    </div>
+
+    <div class="button">
+        <button id="HitAndBlow" class="button2">ゲームスタート！</button>
+    </div>
+
+    <div id="answerColumn" class="answerC"></div>
+    <div id="answerDisplay"></div>
+    <div id="showHints" class="showH"></div>
+    <div id="clearDisplay" class="clearD"></div>
+
+    <script src="HitAndBrow.js" ></script>
+</body>
+</html>
