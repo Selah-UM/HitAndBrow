@@ -179,6 +179,13 @@ function game(){
         }else if(countCheck > 3){
             text2.innerHTML += "<br>次回はもっと少ない回数で3ヒットを出せるかも！";
         }
+        text2.innerHTML += "<br>もう一回チャレンジしてみる？";
         clearDisplay.appendChild(text2);
+
+        const anchor = document.createElement('a');
+        anchor.href = 'https://selah-um.github.io/HitAndBrow/';
+        anchor.className = 'challenge';
+        anchor.innerText = "チャレンジ！";
+        clearDisplay.appendChild(anchor);
     }
 }
