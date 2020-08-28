@@ -161,7 +161,7 @@ ol {
     text-align: center;
     font-family: MS Sans Serif;
 }
-.clear{
+.clearD{
     text-align: center;
     font-family: MS Sans Serif;
 }
@@ -173,6 +173,7 @@ ol {
     background: linear-gradient(to right, #ffb2b285 55%, #ffb97385);
     font-family: ヒラギノ丸ゴ ProN;
     font-size: 250%;
+    transition    : .3s;         
 }
 .hit::after{
     content: "";
@@ -189,4 +190,20 @@ ol {
 .next{
     text-align: center;
     font-family: ヒラギノ丸ゴ ProN;
+}
+.challenge{
+    text-align    : center;
+    display       : inline-block;
+    height: 40px;
+    width: 100px;
+    padding       : 12px 8px 0px;       
+    border        : 2px dotted #43640e;
+    background    : #43640e;
+    font-size     : 12pt;
+    color         : papayawhip;
+    transition    : .3s;         
+}
+.challenge:hover {
+    color         : #01233a;
+    background    : #f1c40f77;
 }
