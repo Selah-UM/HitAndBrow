@@ -67,6 +67,12 @@ ol {
     font-family: ヒラギノ丸ゴ ProN;
     color: #01233a ;
 }
+.mark1{
+    background: linear-gradient(transparent 40%, #00ccffab 80%);
+}
+.mark2{
+    background: linear-gradient(transparent 40%, #ff0095ab 80%);
+}
 .button{
     text-align: center;
 }
