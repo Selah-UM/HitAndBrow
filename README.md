@@ -1,2 +1,2 @@
 # HitAndBrow
-ヒット＆ブローで遊べます。
+Hit＆Browで遊べます。
